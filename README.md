@@ -8,6 +8,7 @@ This project demonstrates a complete DevOps pipeline using GitHub Actions to aut
 
 devops-project-1/ ├── app.py ├── requirements.txt ├── Dockerfile └── .github/ └── workflows/ └── ci-cd.yml
 
+
 ---
 
 ## 💡 Features
@@ -52,11 +53,10 @@ DOCKER_USERNAME
 DOCKER_PASSWORD
 
 Pushes the image to Docker Hub
+
 📸 Screenshots
 
 GitHub Actions ✅	Docker Hub Image 🐳
-![Screenshot (141)](https://github.com/user-attachments/assets/92d2225b-39be-4d66-ad55-cd250a8ff756)
-
 👤 Author
 Omer Ahmed
 📧 omerahmed9224@gmail.com
@@ -68,19 +68,4 @@ Omer Ahmed
 ✅ Docker image builds and deploys automatically
 ✅ Ready for extension or production usage
 
-📃 License
-This project is open source and available under the MIT License.
 
----
-
-### ✅ To Use:
-
-1. Create a file in your repo root:
-```bash
-notepad README.md
-Paste the content above
-
-Save and push it:
-git add README.md
-git commit -m "Added project README"
-git push
